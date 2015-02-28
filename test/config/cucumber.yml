@@ -1,0 +1,1 @@
+default: -f html -o ./test_results/execution_results.html -f pretty
