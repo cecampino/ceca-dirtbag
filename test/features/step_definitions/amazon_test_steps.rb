@@ -1,10 +1,6 @@
 $amz = AmazonSearch.new
 
-Given /^A user access the url (.*)$/ do |url|
-  open_in_browser(url)
-end
-
-When /^the user searches for: (.*)$/ do |search_value|
+When /^the user searches in amazon for: (.*)$/ do |search_value|
  $amz.search_for(search_value)
 end
 
